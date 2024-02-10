@@ -12,6 +12,9 @@ html {font-size: 62.5%;}
     scroll-snap-type: y proximity;
     overflow-y: scroll;
 }
+.desc__text{
+    bottom: 11.8vh !important;
+}
 .grey-bg{
     height: 100vh;
     width: 100%;
