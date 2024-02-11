@@ -465,13 +465,14 @@ margin-top: 5vh;
         margin-bottom: 5vh;
     }
     .slide-six__text{
-        font-size: 2vh;
+        font-size: 3vh;
         right: 0;
         left: 0;
+        top: 5vh !important;
         margin-left: 5vh;
     }
     .slide-six__text span{
-        font-size: 3vh;
+        font-size: 3.2vh;
     }
     
 }
