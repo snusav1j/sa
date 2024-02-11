@@ -307,11 +307,6 @@ p{margin-bottom: unset !important;}
 .slide-five__ellipses .img-fluid.ellipses{
     max-height: 75%;
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
-    .slide-five__ellipses .img-fluid.ellipses{
-        max-height: unset !important;
-    }
-}
 img.img-fluid.ellipses.mobile-ellipses{
     display: none;
 }
