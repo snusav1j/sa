@@ -487,7 +487,7 @@ margin-top: 5vh;
 }
 @media screen and (max-width: 767px){
     .slide-six__monoblok-img{
-        max-width: 60svh !important;
+        max-width: 44svh !important;
         align-items: end !important;
     }
     .slide-six__text{
@@ -509,7 +509,7 @@ margin-top: 5vh;
         max-width: 85% !important;
     }
     .slide-six__monoblok-img{
-        max-width: 43.5svh !important;
+        max-width: 44svh !important;
         align-items: end !important;
     }
 }
