@@ -863,21 +863,7 @@ margin-top: 5vh;
 #slide-ten{
     background: #EBEBEB;
 }
-@media screen and (min-width: 360px) and (max-width: 551px){
-    #slide-ten .slide-ten__monoblok-front{
-        left: -23vh !important;
-        right: 100vh !important;
-    }
-    #slide-ten .info__monoblok-back{
-        top: 22vh !important;
-    }
-    #slide-eleven .slide-eleven__monoblok-front{
-        left: -12vh !important;
-    }
-    #slide-eleven .info__monoblok-back{
-        left: 11vh !important;
-    }
-}
+
 @media screen and (min-width: 568px) and (max-width: 1368px){
     .info__monoblok-name{
         font-size: 4vh !important;
@@ -886,14 +872,14 @@ margin-top: 5vh;
         font-size: 5vh !important;
     }
     .slide-ten__monoblok-front{
-        max-width: 120vh !important;
-        left: -40vh !important;
-        top: 16vh !important;
+        max-width: 92vh !important;
+        left: -28vh !important;
+        top: 8vh !important;
     }
     #slide-ten .info__monoblok-back{
-        max-width: 74vh !important;
-        left: 16vh !important;
-        top: 8vh !important;
+        max-width: 49vh !important;
+        left: 37.5vh !important;
+        top: 10.4vh !important;
     }
     img.img-fluid.mb-desc-22,
     img.img-fluid.mb-desc-24,
@@ -960,14 +946,16 @@ margin-top: 5vh;
 }
 @media screen and (max-width: 550px){
     #slide-ten .info__monoblok-back{
-        left: 9.5vh !important;
-        top: 26vh !important;
+        left: unset !important;
+        right: 2vh;
+        top: 31vh !important;
+        max-width: 30vh !important;
     }
     .slide-ten__monoblok-front{
-        right: 2vh !important;
-        top: 15.6vh !important;
-        left: unset !important;
-        width: 90vh;
+        right: unset !important;
+        left: -17vh !important;
+        top: 16.3vh !important;
+        width: 50vh;
     }
     .slide-ten__monoblok-front img{
         width: 100%;
@@ -1009,10 +997,10 @@ margin-top: 5vh;
 }
 #slide-ten .info__monoblok-back{
     position: absolute;
-    top: -5vh;
-    left: 38vh;
+    top: -2vh;
+    left: 50vh;
     width: 100%;
-    max-width: 80vh;
+    max-width: 62vh;
 }
 #slide-ten .info__mb-desc{
     position: absolute;
@@ -1029,9 +1017,9 @@ margin-top: 5vh;
 }
 .slide-ten__monoblok-front{
     position: absolute;
-    top: -14vh;
-    left: -68vh;
-    max-width: 187vh;
+    top: -10vh;
+    left: -25vh;
+    max-width: 108vh;
 }
 .desc__color{
     height: 50vh;
@@ -1163,13 +1151,13 @@ margin-top: 5vh;
         font-size: 4vh !important;
     }
     .slide-eleven__monoblok-front{
-        max-width: 113vh !important;
-        left: -40vh !important;
+        max-width: 68.5vh !important;
+        left: -15vh !important;
         top: 34vh !important;
     }
     #slide-eleven .info__monoblok-back{
         max-width: 44vh !important;
-        left: 30vh !important;
+        left: 32.5vh !important;
         top: 17vh !important;
     }
     img.img-fluid.mb-desc-22,
@@ -1226,10 +1214,10 @@ span.name__letter{
         width: 33vh !important;
     }
     .slide-eleven__monoblok-front{
-        right: 5.7vh !important;
-        top: 28.7vh !important;
-        left: unset !important;
-        width: 76vh;
+        right: unset !important;
+        left: -13vh !important;
+        top: 29.2vh !important;
+        width: 42vh;
     }
     .slide-eleven__monoblok-front img{
         width: 100%;
@@ -1292,8 +1280,8 @@ span.name__letter{
 .slide-eleven__monoblok-front{
     position: absolute;
     top: 18vh;
-    left: -45vh;
-    max-width: 154vh;
+    left: -9.5vh;
+    max-width: 87vh;
 }
 
 #slide-twelve{
