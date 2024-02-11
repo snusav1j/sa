@@ -863,7 +863,22 @@ margin-top: 5vh;
 #slide-ten{
     background: #EBEBEB;
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
+@media screen and (min-width: 360px) and (max-width: 551px){
+    #slide-ten .slide-ten__monoblok-front{
+        left: -23vh !important;
+        right: 100vh !important;
+    }
+    #slide-ten .info__monoblok-back{
+        top: 22vh !important;
+    }
+    #slide-eleven .slide-eleven__monoblok-front{
+        left: -12vh !important;
+    }
+    #slide-eleven .info__monoblok-back{
+        left: 11vh !important;
+    }
+}
+@media screen and (min-width: 568px) and (max-width: 1368px){
     .info__monoblok-name{
         font-size: 4vh !important;
     }
@@ -1133,7 +1148,7 @@ margin-top: 5vh;
     height: 50lvh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
+@media screen and (min-width: 568px) and (max-width: 1368px){
     .info__monoblok-name{
         font-size: 4vh !important;
     }
@@ -1299,7 +1314,7 @@ span.name__letter{
     padding-top: 3.5vh;
     padding-right: 3.5vh;
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
+@media screen and (min-width: 568px) and (max-width: 1368px){
     .info__monoblok-name{
         font-size: 4vh !important;
     }
@@ -1434,7 +1449,7 @@ span.name__letter{
 #slide-thirteen{
     background: #EBEBEB;
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
+@media screen and (min-width: 568px) and (max-width: 1368px){
     #slide-thirteen .name__letter,
     #slide-thirteen .name__letter{
         font-size: 4.5vh !important;
@@ -1639,7 +1654,7 @@ span.name__letter{
     margin-left: 16vh;
     margin-top: 7vh;
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
+@media screen and (min-width: 568px) and (max-width: 1368px){
     #slide-fourteen .name__letter,
     #slide-fourteen .name__letter{
         font-size: 4.5vh !important;
@@ -1783,7 +1798,7 @@ span.name__letter{
     height: 50lvh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
-@media screen and (min-width: 768px) and (max-width: 1368px){
+@media screen and (min-width: 568px) and (max-width: 1368px){
     #slide-fifteen .name__letter,
     #slide-fifteen .name__letter{
         font-size: 4.5vh !important;
