@@ -6,11 +6,16 @@
 html {font-size: 62.5%;} 
 .container-fluid{
     width: 100%;
-    height: 100svh;
+    height: 100vh;
     padding: 0 !important;
     margin: 0 !important;
     scroll-snap-type: y proximity;
     overflow-y: scroll;
+}
+@media screen and (max-width: 767px){
+    .container-fluid{
+        scroll-snap-type: y mandatory;
+    }
 }
 .grey-bg{
     height: 100vh;
@@ -40,7 +45,7 @@ p{margin-bottom: unset !important;}
 .slide-section{
     position: relative;
     overflow: hidden;
-    height: 100lvh !important;
+    height: 100svh !important;
     width: 100%;
     scroll-snap-align: start;
     scroll-snap-stop: always;
@@ -657,7 +662,7 @@ margin-top: 5vh;
     color: #001932;
     text-align: center;
     width: 100%;
-    margin-top: 12vh;
+    margin-top: 7vh;
 }
 .slide-eight__title{
     font-size: 6.653vh;
@@ -689,7 +694,7 @@ margin-top: 5vh;
 .slide-eight__info-block{
     position: absolute;
     width: 100%;
-    top: 45vh;
+    top: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -904,10 +909,10 @@ margin-top: 5vh;
     }
 }
 .slide-ten__info{
-    height: 50lvh;
+    height: 50vh;
 }
 .slide-ten__desc{
-    height: 50lvh;
+    height: 50vh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
 
@@ -1126,10 +1131,10 @@ margin-top: 5vh;
     background: #EBEBEB;
 }
 .slide-eleven__info{
-    height: 50lvh;
+    height: 50vh;
 }
 .slide-eleven__desc{
-    height: 50lvh;
+    height: 50vh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
 @media screen and (min-width: 568px) and (max-width: 1368px){
@@ -1284,10 +1289,10 @@ span.name__letter{
     background: #EBEBEB;
 }
 .slide-twelve__info{
-    height: 50lvh;
+    height: 50vh;
 }
 .slide-twelve__desc{
-    height: 50lvh;
+    height: 50vh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
 
@@ -1460,10 +1465,10 @@ span.name__letter{
     }
 }
 .slide-thirteen__info{
-    height: 50lvh;
+    height: 50vh;
 }
 .slide-thirteen__desc{
-    height: 50lvh;
+    height: 50vh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
 
@@ -1617,10 +1622,10 @@ span.name__letter{
     background: #EBEBEB;
 }
 .slide-fourteen__info{
-    height: 50lvh;
+    height: 50vh;
 }
 .slide-fourteen__desc{
-    height: 50lvh;
+    height: 50vh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
 
@@ -1776,10 +1781,10 @@ span.name__letter{
     background: #EBEBEB;
 }
 .slide-fifteen__info{
-    height: 50lvh;
+    height: 50vh;
 }
 .slide-fifteen__desc{
-    height: 50lvh;
+    height: 50vh;
     background: linear-gradient(180deg, #F6F6F6 0%, #E0E2E8 100%);
 }
 @media screen and (min-width: 568px) and (max-width: 1368px){
@@ -2099,6 +2104,7 @@ span.name__letter{
 
 #slide-eighteen{
     background: #002243;
+    height: 100lvh !important;
 }
 .slide-18__header{
     position: absolute;
