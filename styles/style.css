@@ -9,8 +9,8 @@ html {font-size: 62.5%;}
     height: 100svh;
     padding: 0 !important;
     margin: 0 !important;
-    /* scroll-snap-type: y proximity; */
-    /* overflow-y: scroll; */
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
 }
 .grey-bg{
     height: 100vh;
@@ -42,8 +42,8 @@ p{margin-bottom: unset !important;}
     overflow: hidden;
     height: 100lvh !important;
     width: 100%;
-    /* scroll-snap-align: start; */
-    /* scroll-snap-stop: always; */
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 .img-block{
     max-width: 35%;
