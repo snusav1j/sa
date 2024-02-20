@@ -9,603 +9,614 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles/fullpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>TESLA</title>
 </head>
 <body>
     <div class="container-fluid">
-        <section id="slide-one" class="slide-section">
-            <div class="img-block">
-                <img src="images/tesla-sun-c.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-one__logo">
-                <a href="https://monoblok.by" target="_blank">
-                    <img src="images/logotcolor-2.png" alt="logo" class="img-fluid">
-                </a>
-            </div>
-            <div class="slide-one__text">
-                <h1 class="">ПРЕЗЕНТАЦИЯ <br> КОМПАНИИ</h1>
-                <h2 class="">MONOBLOK.BY </h2>
-            </div>
-        </section>
-
-        <section id="slide-two" class="slide-section">
-            <div class="gradient-1"></div>
-            <div class="gradient-2"></div>
-            <div class="grey-bg"></div>
-            <div class="img-block">
-                <img src="images/tesla-sun-reverse.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-two__text ">
-                <p>
-                    ООО "БелЭВМ" - лидер в производстве <br>
-                    моноблоков в <span>Республике Беларусь.</span> <br>
-                    Более 10 лет мы с увлечением и <br>
-                    преданностью создаем качественные <br>
-                    компьютеры для Вашего комфорта.
-                </p>
-            </div>
-        </section>
-
-        <section id="slide-three" class="slide-section">
-            <div class="gradient-1"></div>
-            <div class="gradient-2"></div>
-            <div class="grey-bg"></div>
-            <div class="slide-three__text ">
-                <p>
-                    <span style="font-weight: 700;">ООО "БелЭВМ" - резидент Китайско- <br>
-                        Белорусского Индустриального парка <br>
-                        "Великий камень".</span> Собственное <br>
-                        производство позволяет быстро выполнять <br>
-                        заказы любых масштабов и сложности. <br>
-                        Размещение в бондовой зоне позволяет <br>
-                        предложить лучшую цену.
-                </p>
-            </div>
-        </section>
-
-        <section id="slide-four" class="slide-section">
-            <div class="gradient-1"></div>
-            <div class="gradient-2"></div>
-            <div class="grey-bg"></div>
-            <div class="slide-four__text ">
-                <p>
-                    <span style="font-weight: 700;">Современное производство</span> и инновационная<br>
-                    система управления процессами позволяет
-                    <br> контролировать каждый этап создания
-                    <br> продукта, обеспечивая надежность и
-                    <br> инновации в каждом моноблоке Тесла.
-                </p>
-            </div>
-        </section>
-
-        <section id="slide-five" class="slide-section">
-            <div class="blue-bg"></div>
-            <div class="slide-five__ellipses">
-                <img src="images/ellipses.png" alt="" class="img-fluid ellipses mobile-ellipses">
-                <img src="images/ellipses -w-lines.png" alt="" class="img-fluid ellipses">
-            </div>
-            <div class="slide-five__text">
-                <p class="text__title "><span style="font-weight: 700;">Более 10</span> лет работы</p>
-                <p><br></p>
-                <p class="">Более <span>100</span> сотрудников</p>
-                <p class=""><span>4500 м²</span> занимаемая площадь</p>
-                <p class=""><span>5000</span> активных клиентов</p>
-                <p class="">Более <span>30000</span> устройств в год</p>
-            </div>
-        </section>
-
-        <section id="slide-six" class="slide-section">
-            <div class="slide-six__img-block">
-                <img src="images/tesla-sun-yellow.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-six__monoblok-img ">
-                <img src="images/monoblok6.png" alt="monoblok-6" class="img-fluid">
-            </div>
-            <div class="slide-six__text">
-                <div class="text__title ">
-                    <p>ПРОФИЛЬНЫЙ ПРОДУКТ <br>
-                    <span>МОНОБЛОК</span></p>
+        <div id="fullpage">
+            <section id="slide-one" class="section slide-section">
+                <div class="img-block">
+                    <img src="images/tesla-sun-c.png" alt="tesla-sun" class="img-fluid">
                 </div>
-                <div class="text__desc ">
-                    С 2012 года наша компания<br> профессионально занимается <br>производством Моноблоков<br> “Тесла”, а также производит<br> Мониторы, Системные блоки<br> ПЭВМ, Клавиатуры и Мыши.
+                <div class="slide-one__logo">
+                    <a href="https://monoblok.by" target="_blank">
+                        <img src="images/logotcolor-2.png" alt="logo" class="img-fluid">
+                    </a>
                 </div>
-            </div>
-        </section>
+                <div class="slide-one__text">
+                    <h1 class="">ПРЕЗЕНТАЦИЯ <br> КОМПАНИИ</h1>
+                    <h2 class="">MONOBLOK.BY </h2>
+                </div>
+            </section>
 
-        <section id="slide-seven" class="slide-section">
-            <div class="img-block">
-                <img src="images/tesla-sun-c.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-seven__title ">
-                <p>ПРЕИМУЩЕСТВА МОНОБЛОКА</p>
-            </div>
-            <div class="img-info-block ">
-                <img src="images/inf07.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-seven__img ">
-                <img src="images/Z24W-4.png" alt="monoblok" class="img-fluid">
-            </div>
-            <p class="slide-seven__mini-desc">Выбор комплектации под любые задачи. Индивидуальный<br> подход и возможность производства индивидуальных решений.</p>
-        </section>
-        
-        <section id="slide-eight" class="slide-section">
-            <div class="slide-eight__fade-block"></div>
-            <div class="slide-eight__text">
-                <div class="slide-eight__title ">
-                    <p>СЕРВИСНОЕ ОБСЛУЖИВАНИЕ</p>
+            <section id="slide-two" class="section slide-section">
+                <div class="gradient-1"></div>
+                <div class="gradient-2"></div>
+                <div class="grey-bg"></div>
+                <div class="img-block">
+                    <img src="images/tesla-sun-reverse.png" alt="tesla-sun" class="img-fluid">
                 </div>
-                <div class="slide-eight__subtitle ">
+                <div class="slide-two__text ">
                     <p>
-                        Отличное сервисное обслуживание. <span>Гарантия 36 месяцев.</span> <br>Удобное расположение сервисного центра в г.Минске, во <br>всех областных центрах РБ, а так же в РФ.
+                        ООО "БелЭВМ" - лидер в производстве <br>
+                        моноблоков в <span>Республике Беларусь.</span> <br>
+                        Более 10 лет мы с увлечением и <br>
+                        преданностью создаем качественные <br>
+                        компьютеры для Вашего комфорта.
                     </p>
                 </div>
-            </div>
-            <div class="slide-eight__info-block">
-                <div class="info__item">
-                    <p>ул. Аранская 8, 1-й этаж <br>
-                    БЦ "Caspian Plaza"
-                    <p class="empty"><br></p>
-                    <span>
-                        +375 29 118-37-55 <br>
-                        +375 17 511-99-99
-                    </span>
-                    </p>
-                </div>
-                <div class="info__line">
-                    <img src="images/Line 77.png" alt="">
-                </div>
-                <div class="info__item-list">
-                    <ul>
-                    <li class=""><span>Качественное обслуживание:</span> Наши опытные<br>
-                        специалисты гарантируют, что ваш моноблок Тесла будет в <br>
-                        надежных руках, а все работы будут выполнены <br>
-                        профессионально.</li>
-                    <li class=""><span>Быстрый и эффективный ремонт:</span> Мы понимаем, что <br>
-                        время - это ценный ресурс. Наша команда стремится <br>
-                        максимально оперативно и эффективно решать любые <br>
-                        проблемы клиентов и устранять неисправности.</li>
-                    <li class=""><span>Оригинальные запчасти:</span> Все ремонтные работы <br>
-                            проводятся с использованием оригинальных запчастей, что <br>
-                        гарантирует надежность и долгий срок службы вашего <br>
-                        устройства.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="slide-nine" class="slide-section">
-            <div class="img-block">
-                <img src="images/tesla-sun-reverse.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-nine__text">
-                <div class="text__item "><p>ПОПУЛЯРНЫЕ</p></div>
-                <div class="text__items ">
-                    <div class="text__item-bold">МОДЕЛИ</div>
-                    <div class="text__item ">МОНОБЛОКОВ</div>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-ten" class="slide-section">
-            <div class="slide-ten__info">
-                <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
-                <div class="info__monoblok-name ">
-                    <p>СЕРИЯ <span>Z</span> </p>
-                </div>
-                <div class="info__monoblok-back ">
-                    <img src="images/slide-10-monoblok-back.png" alt="" class="img-fluid">
-                </div>
-                <div class="info__mb-desc ">
-                    <img src="images/slide-ten-mb-desc.png" alt="" class="img-fluid mb-desc-22">
-                    <img src="images/slide-ten-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
-                </div>
-            </div>
-            <div class="slide-ten__monoblok-front ">
-                <img src="images/slide-10-monoblok-front.png" alt="" class="img-fluid">
-            </div>
-            <div class="slide-ten__desc">   
-                <div class="desc__color">
-                    <div class="color__white">
-                        <img src="images/W-WHITE.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="color__black">
-                        <img src="images/B_BLACK.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="desc__text">
-                    <div class="text ">
-                        <p><span class="text__desc-title">Разъемы*:</span> <br>
-                        — USB 3.0 - 4 шт. <br>
-                        — LAN 1Gbit <br>
-                        — HDMI 2.0 - 2 шт. <br>
-                        — Кардридер SD/MMC/MS* <br>
-                        — COM-порт (RS-232) или VGA* <br>
-                        — Аудиовыходы на наушники <br>и микрофоны</p> 
-                    </div>
-                    <div class="text ">
-                        <p>
-                        <span class="text__desc-title">Особенности: </span> <br>
-                        — Крепление VESA 100×100 <br>
-                        — FHD (1920×1080) <br>
-                        — Динамики 2×5W <br> 
-                        — WiFi/Bluetooth <br>
-                        </p>
-                    </div>
-                </div>
-                <div class="desc__warranty">
-                    <p>Гарантия на готовое изделие: 36 месяцев</p>
-                </div>
-                <div class="desc__remark">
-                    <p>*Может отличаться в зависимости от используемой платформы</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-eleven" class="slide-section">
-            <div class="slide-eleven__info">
-                <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
-                <div class="info__monoblok-name ">
-                    <p>СЕРИЯ <span class="name__letter">Z</span> <span class="mb-model">PIVOT</span></p>
-                </div>
-                <div class="info__monoblok-back ">
-                    <img src="images/slide-11-monoblok-back.png" alt="" class="img-fluid">
-                </div>
-                <div class="info__mb-desc ">
-                    <img src="images/slide-eleven-mb-desc.png" alt="" class="img-fluid mb-desc-22">
-                    <img src="images/slide-eleven-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
-                </div>
-            </div>
-            <div class="slide-eleven__monoblok-front ">
-                <img src="images/slide-11-monoblok-front.png" alt="" class="img-fluid">
-            </div>
-            <div class="slide-eleven__desc">   
-                <div class="desc__color">
-                    <div class="color__white">
-                        <img src="images/W-WHITE.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="color__black">
-                        <img src="images/B_BLACK.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="desc__text">
-                    <div class="text ">
-                        <p><span class="text__desc-title">Разъемы*:</span> <br>
-                        — USB 3.0 - 4 шт. <br>
-                        — LAN 1Gbit <br>
-                        — HDMI 2.0 - 2 шт. <br>
-                        — Кардридер SD/MMC/MS* <br>
-                        — COM-порт (RS-232) или VGA* <br>
-                        — Аудиовыходы на наушники <br>и микрофоны</p> 
-                    </div>
-                    <div class="text ">
-                        <p>
-                        <span class="text__desc-title">Особенности: </span> <br>
-                        — Крепление VESA 100×100 <br>
-                        — FHD (1920×1080) <br>
-                        — Динамики 2×5W <br> 
-                        — WiFi/Bluetooth <br>
-                        — Регулировки PIVOT
-                    </p>
-                    </div>
-                </div>
-                <div class="desc__warranty">
-                    <p>Гарантия на готовое изделие: 36 месяцев</p>
-                </div>
-                <div class="desc__remark">
-                    <p>*Может отличаться в зависимости от используемой платформы</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-twelve" class="slide-section">
-            <div class="slide-twelve__info">
-                <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
-                <div class="info__monoblok-name ">
-                    <p>СЕРИЯ <span class="name__letter">P</span></p>
-                </div>
-                <div class="info__monoblok-back ">
-                    <img src="images/slide-12-monoblok-back.png" alt="" class="img-fluid">
-                </div>
-                <div class="info__mb-desc ">
-                    <img src="images/slide-twelve-mb-desc.png" alt="" class="img-fluid mb-desc-22">
-                    <img src="images/slide-twelve-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
-                </div>
-            </div>
-            <div class="slide-twelve__monoblok-front ">
-                <img src="images/slide-12-monoblok-front.png" alt="" class="img-fluid">
-            </div>
-            <div class="slide-twelve__desc">   
-                <div class="desc__color">
-                    <div class="color__white">
-                        <img src="images/W-WHITE.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="color__black">
-                        <img src="images/B_BLACK.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="desc__text">
-                    <div class="text ">
-                        <p><span class="text__desc-title">Разъемы*:</span> <br>
-                        — USB 3.0 - 4 шт. <br>
-                        — LAN 1Gbit <br>
-                        — HDMI 2.0 - 2 шт. <br>
-                        — Кардридер SD/MMC/MS* <br>
-                        — COM-порт (RS-232) или VGA* <br>
-                        — Аудиовыходы на наушники <br>и микрофоны</p> 
-                    </div>
-                    <div class="text ">
-                        <p>
-                        <span class="text__desc-title">Особенности: </span> <br>
-                        — Крепление VESA 100×100 <br>
-                        — FHD (1920×1080) <br>
-                        — Динамики 2×5W <br> 
-                        — WiFi/Bluetooth <br>
-                        — Выдвижная камера с <br>
-                        микрофоном
-                        </p>
-                    </div>
-                </div>
-                <div class="desc__warranty">
-                    <p>Гарантия на готовое изделие: 36 месяцев</p>
-                </div>
-                <div class="desc__remark">
-                    <p>*Может отличаться в зависимости от используемой платформы</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-thirteen" class="slide-section">
-            <div class="slide-thirteen__info">
-                <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
-                <div class="info__monoblok-name ">
-                    <p>СЕРИЯ <span class="name__letter">M</span></p>
-                </div>
-                <div class="info__monoblok-back ">
-                    <img src="images/slide-13-monoblok-back.png" alt="" class="img-fluid">
-                </div>
-                <div class="info__mb-desc ">
-                    <img src="images/slide-thirteen-mb-desc.png" alt="" class="img-fluid mb-desc-22">
-                    <img src="images/slide-thirteen-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
-                    <img src="images/slide-thirteen-mb-desc3.png" alt="" class="img-fluid mb-desc-27">
-                </div>
-            </div>
-            <div class="slide-thirteen__monoblok-front ">
-                <img src="images/slide-13-monoblok-front.png" alt="" class="img-fluid">
-            </div>
-            <div class="slide-thirteen__desc">   
-                <div class="desc__color">
-                    <div class="color__white">
-                        <img src="images/W-WHITE.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="color__black">
-                        <img src="images/B_BLACK.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="desc__text">
-                    <div class="text ">
-                        <p><span class="text__desc-title">Разъемы*:</span> <br>
-                        — USB 2.0/3.0 - 4-6 шт. <br>
-                        — LAN 1Gbit <br>
-                        — HDMI 2.0 - 2 шт. <br>
-                        — Кардридер SD/MMC/MS* +<br>
-                        Возможность установки DVD- <br>
-                        RW привода <br>
-                        — COM-порт (RS-232) или VGA* <br>
-                        — Аудиовыходы на наушники <br>и микрофоны</p> 
-                    </div>
-                    <div class="text ">
-                        <p>
-                        <span class="text__desc-title">Особенности: </span> <br>
-                        — Крепление VESA 100×100 <br>
-                        — FHD (1920×1080) <br>
-                        — Динамики 2×5W <br> 
-                        — WiFi/Bluetooth <br>
-                        — Выдвижная камера с <br>
-                        микрофоном <br>
-                        — Встроенный блок питания
-                        </p>
-                    </div>
-                </div>
-                <div class="desc__warranty">
-                    <p>Гарантия на готовое изделие: 36 месяцев</p>
-                </div>
-                <div class="desc__remark">
-                    <p>*Может отличаться в зависимости от используемой платформы</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-fourteen" class="slide-section">
-            <div class="slide-fourteen__info">
-                <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
-                <div class="info__monoblok-name ">
-                    <p>СЕРИЯ <span class="name__letter">X</span></p>
-                </div>
-                <div class="info__monoblok-back ">
-                    <img src="images/slide-14-monoblok-back.png" alt="" class="img-fluid">
-                </div>
-                <div class="info__mb-desc ">
-                    <img src="images/slide-fourteen-mb-desc.png" alt="" class="img-fluid mb-desc-22">
-                </div>
-            </div>
-            <div class="slide-fourteen__monoblok-front ">
-                <img src="images/slide-14-monoblok-front.png" alt="" class="img-fluid">
-            </div>
-            <div class="slide-fourteen__desc">   
-                <div class="desc__color">
-                    <div class="color__white">
-                        <img src="images/W-WHITE.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="color__black">
-                        <img src="images/B_BLACK.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="desc__text">
-                    <div class="text ">
-                        <p><span class="text__desc-title">Разъемы*:</span> <br>
-                        — USB 2.0/3.0 - 4-6 шт. <br>
-                        — LAN 1Gbit RJ-45 <br>
-                        — HDMI, DisplayPort, VGA (D-SUB) <br>
-                        — Кардридер SD/MMC/MS*<br>
-                        — COM-порт (RS-232) или VGA* <br>
-                        RW привода <br>
-                        — Аудиовыходы на наушники <br>и микрофоны</p> 
-                    </div>
-                    <div class="text ">
-                        <p>
-                        <span class="text__desc-title">Особенности: </span> <br>
-                        — Крепление VESA 100×100 <br>
-                        — 2K (2560×1440) / <br>
-                        FHD (1920×1080) <br>
-                        — Динамики 2×5W <br> 
-                        — WiFi/Bluetooth <br>
-                        </p>
-                    </div>
-                </div>
-                <div class="desc__warranty">
-                    <p>Гарантия на готовое изделие: 36 месяцев</p>
-                </div>
-                <div class="desc__remark">
-                    <p>*Может отличаться в зависимости от используемой платформы</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-fifteen" class="slide-section">
-            <div class="slide-fifteen__info">
-                <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
-                <div class="info__monoblok-name ">
-                    <p>СЕРИЯ <span class="name__letter">R</span></p>
-                </div>
-                <div class="info__monoblok-back ">
-                    <img src="images/slide-15-monoblok-back.png" alt="" class="img-fluid">
-                </div>
-                <div class="info__mb-desc ">
-                    <img src="images/slide-fifteen-mb-desc.png" alt="" class="img-fluid mb-desc-27">
-                    <img src="images/slide-fifteen-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
-                    <img src="images/slide-fifteen-mb-desc3.png" alt="" class="img-fluid mb-desc-22">
-                </div>
-            </div>
-            <div class="slide-fifteen__monoblok-front ">
-                <img src="images/slide-15-monoblok-front.png" alt="" class="img-fluid">
-            </div>
-            <div class="slide-fifteen__desc">   
-                <div class="desc__color">
-                    <div class="color__white">
-                        <img src="images/W-WHITE.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="color__black">
-                        <img src="images/B_BLACK.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="desc__text">
-                    <div class="text ">
-                        <p><span class="text__desc-title">Разъемы*:</span> <br>
-                        — USB 2.0/3.0 - 4-6 шт. <br>
-                        — LAN 1Gbit <br>
-                        — HDMI 2.0 - 2 шт. <br>
-                        — Кардридер SD/MMC/MS* +<br>
-                        Возможность установки DVD- <br>
-                        RW привода <br>
-                        — COM-порт (RS-232) или VGA* <br>
-                        — Аудиовыходы на наушники <br>и микрофоны</p> 
-                    </div>
-                    <div class="text ">
-                        <p>
-                        <span class="text__desc-title">Особенности: </span> <br>
-                        — Крепление VESA 100×100 <br>
-                        — FHD / 2K / 4K <br>
-                        — Динамики 2×5W <br> 
-                        — WiFi/Bluetooth <br>
-                        — Выдвижная камера с <br>
-                        микрофоном <br>
-                        — Встроенный блок питания
-                        </p>
-                    </div>
-                </div>
-                <div class="desc__warranty">
-                    <p>Гарантия на готовое изделие: 36 месяцев</p>
-                </div>
-                <div class="desc__remark">
-                    <p>*Может отличаться в зависимости от используемой платформы</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="slide-sixteen" class="slide-section">
-            <div class="slide-sixteen__light-blue"></div>
-            <div class="img-block">
-                <img src="images/tesla-sun-w.png" alt="tesla-sun" class="img-fluid">
-            </div>
-            <div class="slide-sixteen__text">
-                <p class="">
-                    Посетите наш сайт, чтобы <br>
-                    ознакомиться с разнообразием <br>
-                    моделей моноблоков Тесла
-                </p>
-                <pre></pre>
-                <p class="link ">
-                    <a href="https://monoblok.by" target="_blank">MONOBLOK.BY</a>
-                </p>
-            </div>
-        </section>
-
-        <section id="slide-seventeen" class="slide-section">
-            <div class="slide-seventeen-bg">
-                <div class="slide-seventeen__img">
-                    <img src="images/slide-17-img1.png" alt="" class="img-fluid">
-                    <p>НАМ ДОВЕРЯЮТ</p>
-                </div>
-                <div class="slide-seventeen__img-m">
-                    <img src="images/slide-17-img1-m.png" alt="" class="img-fluid">
-                    <p>НАМ ДОВЕРЯЮТ</p>
-                </div>
-                <div class="slide-seventeen__logos">
-                    <!-- <img src="images/slide-17-img2.png" alt="" class="img-fluid"> -->
-                </div>
-            </div>
-        </section>
-        <section id="slide-eighteen" class="slide-section">
-            <div class="slide-eighteen__logo">
-                <a href="https://monoblok.by" target="_blank">
-                    <img src="images/logotcolor-2.png" alt="logo" class="img-fluid">
-                </a>
-            </div>
-            <div class="text">
-                <span class="text__bold">КОНТАКТЫ</span>
-                <span class="text__normal">MONOBLOK.BY</span>
-            </div>
-            <div class="slide-eighteen__contact-info">
-                <div class="info-block__1">
-                    <span>ОТДЕЛ ПРОДАЖ: </span>
-                    <p><br></p>
+            <section id="slide-three" class="section slide-section">
+                <div class="gradient-1"></div>
+                <div class="gradient-2"></div>
+                <div class="grey-bg"></div>
+                <div class="slide-three__text ">
                     <p>
-                    +375 17 511 99 99 <br>
-                    +375 29 888 37 55 <br>
-                    +375 29 308 37 55 <br>
-                    <span><br></span>
-                    г. Минск, ул. Аранская 8, 1-й <br>
-                    этаж БЦ"Caspian Plaza"<br>
-                    sales@monoblok.by
+                        <span style="font-weight: 700;">ООО "БелЭВМ" - резидент Китайско- <br>
+                            Белорусского Индустриального парка <br>
+                            "Великий камень".</span> Собственное <br>
+                            производство позволяет быстро выполнять <br>
+                            заказы любых масштабов и сложности. <br>
+                            Размещение в таможенной зоне позволяет <br>
+                            предложить лучшую цену.
                     </p>
                 </div>
-                <div class="info-block__2">
-                    <span>РЕМОНТ И ОБСЛУЖИВАНИЕ <br>
-                    МОНОБЛОКОВ И ПЭВМ ТЕСЛА
-                    </span>
-                    <p><br></p>
-                    <p>г. Минск, ул. Аранская, 8, 1-й этаж БЦ <br>
-                    "Caspian Plaza" <br>
-                    +375 29 118 37 55 <br>
-                    +375 17 511 99 99 (доб. 150) <br>
-                    Время работы: с 9:00 до 17:00, <br>
-                    выходные СБ, ВС <br>
-                    <p><br></p>
-                    <a href="ip@monoblok.by">ip@monoblok.by</a></p>
+            </section>
+
+            <section id="slide-four" class="section slide-section">
+                <div class="gradient-1"></div>
+                <div class="gradient-2"></div>
+                <div class="grey-bg"></div>
+                <div class="slide-four__text ">
+                    <p>
+                        <span style="font-weight: 700;">Современное производство</span> <br>и инновационная
+                        система управления<br> процессами позволяет
+                        контролировать <br>каждый этап создания
+                        продукта, <br>обеспечивая надежность и
+                        инновации <br>в каждом моноблоке Тесла.
+                    </p>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <section id="slide-five" class="section slide-section">
+                <div class="blue-bg"></div>
+                <div class="slide-five__ellipses">
+                    <img src="images/ellipses.png" alt="" class="img-fluid ellipses mobile-ellipses">
+                    <img src="images/ellipses -w-lines.png" alt="" class="img-fluid ellipses">
+                </div>
+                <div class="slide-five__text">
+                    <p class="text__title "><span style="font-weight: 700;">Более 10</span> лет работы</p>
+                    <p><br></p>
+                    <p class="">Более <span>100</span> сотрудников</p>
+                    <p class=""><span>4500 м²</span> занимаемая площадь</p>
+                    <p class=""><span>5000</span> активных клиентов</p>
+                    <p class="">Более <span>30000</span> устройств в год</p>
+                </div>
+            </section>
+
+            <section id="slide-six" class="section slide-section">
+                <div class="slide-six__img-block">
+                    <img src="images/tesla-sun-yellow.png" alt="tesla-sun" class="img-fluid">
+                </div>
+                <div class="slide-six__monoblok-img ">
+                    <img src="images/monoblok6.png" alt="monoblok-6" class="img-fluid">
+                </div>
+                <div class="slide-six__text">
+                    <div class="text__title ">
+                        <p>ПРОФИЛЬНЫЙ ПРОДУКТ <br>
+                        <span>МОНОБЛОК</span></p>
+                    </div>
+                    <div class="text__desc ">
+                        С 2012 года наша компания<br> профессионально занимается <br>производством Моноблоков<br> “Тесла”, а также производит<br> Мониторы, Системные блоки<br> ПЭВМ, Клавиатуры и Мыши.
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-seven" class="section slide-section">
+                <div class="img-block">
+                    <img src="images/tesla-sun-c.png" alt="tesla-sun" class="img-fluid">
+                </div>
+                <div class="slide-seven__title ">
+                    <p>ПРЕИМУЩЕСТВА МОНОБЛОКА</p>
+                </div>
+                <div class="img-info-block ">
+                    <img src="images/inf07.png" alt="tesla-sun" class="img-fluid">
+                </div>
+                <div class="slide-seven__img ">
+                    <img src="images/Z24W-4.png" alt="monoblok" class="img-fluid">
+                </div>
+                <p class="slide-seven__mini-desc">Выбор комплектации под любые задачи. Индивидуальный<br> подход и возможность производства индивидуальных решений.</p>
+            </section>
+            
+            <section id="slide-eight" class="section slide-section">
+                <div class="slide-eight__fade-block"></div>
+                <div class="slide-eight__text">
+                    <div class="slide-eight__title ">
+                        <p>СЕРВИСНОЕ ОБСЛУЖИВАНИЕ</p>
+                    </div>
+                    <div class="slide-eight__subtitle ">
+                        <p>
+                            Отличное сервисное обслуживание. <span>Гарантия 36 месяцев.</span> <br>Удобное расположение сервисного центра в г.Минске, во <br>всех областных центрах РБ, а так же в РФ.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide-eight__info-block">
+                    <div class="info__item">
+                        <p>ул. Аранская 8, 1-й этаж <br>
+                        БЦ "Caspian Plaza"
+                        <p class="empty"><br></p>
+                        <span>
+                            <a href="tel:+375 29 118-37-55">+375 29 118-37-55</a> <br>
+                            <a href="tel:+375 17 511-99-99">+375 17 511-99-99</a> <br>
+                            
+                        </span>
+                        </p>
+                    </div>
+                    <div class="info__line">
+                        <img src="images/Line 77.png" alt="">
+                    </div>
+                    <div class="info__item-list">
+                        <ul>
+                        <li class=""><span>Качественное обслуживание:</span> Наши опытные<br>
+                            специалисты гарантируют, что ваш моноблок Тесла будет в <br>
+                            надежных руках, а все работы будут выполнены <br>
+                            профессионально.</li>
+                        <li class=""><span>Быстрый и эффективный ремонт:</span> Мы понимаем, что <br>
+                            время - это ценный ресурс. Наша команда стремится <br>
+                            максимально оперативно и эффективно решать любые <br>
+                            проблемы клиентов и устранять неисправности.</li>
+                        <li class=""><span>Оригинальные запчасти:</span> Все ремонтные работы <br>
+                                проводятся с использованием оригинальных запчастей, что <br>
+                            гарантирует надежность и долгий срок службы вашего <br>
+                            устройства.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-nine" class="section slide-section">
+                <div class="img-block">
+                    <img src="images/tesla-sun-reverse.png" alt="tesla-sun" class="img-fluid">
+                </div>
+                <div class="slide-nine__text">
+                    <div class="text__item "><p>ПОПУЛЯРНЫЕ</p></div>
+                    <div class="text__items ">
+                        <div class="text__item-bold">МОДЕЛИ</div>
+                        <div class="text__item ">МОНОБЛОКОВ</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-ten" class="section slide-section">
+
+                <div class="slide-ten__info">
+                    <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
+                    <div class="info__monoblok-name ">
+                        <p>СЕРИЯ <span>Z</span> </p>
+                    </div>
+                    <div class="info__monoblok-back ">
+                        <img src="images/slide-10-monoblok-back.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info__mb-desc ">
+                        <img src="images/slide-ten-mb-desc.png" alt="" class="img-fluid mb-desc-22">
+                        <img src="images/slide-ten-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
+                    </div>
+                </div>
+
+                <div class="slide-ten__monoblok-front ">
+                    <img src="images/slide-10-monoblok-front.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="slide-ten__desc">
+
+                    <div class="desc__color">
+                        <div class="color__white">
+                            <img src="images/W-WHITE.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="color__black">
+                            <img src="images/B_BLACK.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="desc__text">
+                        <div class="text ">
+                            <p><span class="text__desc-title">Разъемы*:</span> <br>
+                            — USB 3.0 - 4 шт. <br>
+                            — LAN 1Gbit <br>
+                            — HDMI 2.0 - 2 шт. <br>
+                            — Кардридер SD/MMC/MS* <br>
+                            — COM-порт (RS-232) или VGA* <br>
+                            — Аудиовыходы на наушники <br>и микрофоны</p> 
+                        </div>
+                        <div class="text ">
+                            <p>
+                            <span class="text__desc-title">Особенности: </span> <br>
+                            — Крепление VESA 100×100 <br>
+                            — FHD (1920×1080) <br>
+                            — Динамики 2×5W <br> 
+                            — WiFi/Bluetooth <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc__warranty">
+                        <p>Гарантия на готовое изделие: 36 месяцев</p>
+                    </div>
+                    <div class="desc__remark">
+                        <p>*Может отличаться в зависимости от используемой платформы</p>
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <section id="slide-eleven" class="section slide-section">
+                <div class="slide-eleven__info">
+                    <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
+                    <div class="info__monoblok-name ">
+                        <p>СЕРИЯ <span class="name__letter">Z</span> <span class="mb-model">PIVOT</span></p>
+                    </div>
+                    <div class="info__monoblok-back ">
+                        <img src="images/slide-11-monoblok-back.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info__mb-desc ">
+                        <img src="images/slide-eleven-mb-desc.png" alt="" class="img-fluid mb-desc-22">
+                        <img src="images/slide-eleven-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
+                    </div>
+                </div>
+                <div class="slide-eleven__monoblok-front ">
+                    <img src="images/slide-11-monoblok-front.png" alt="" class="img-fluid">
+                </div>
+                <div class="slide-eleven__desc">   
+                    <div class="desc__color">
+                        <div class="color__white">
+                            <img src="images/W-WHITE.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="color__black">
+                            <img src="images/B_BLACK.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="desc__text">
+                        <div class="text ">
+                            <p><span class="text__desc-title">Разъемы*:</span> <br>
+                            — USB 3.0 - 4 шт. <br>
+                            — LAN 1Gbit <br>
+                            — HDMI 2.0 - 2 шт. <br>
+                            — Кардридер SD/MMC/MS* <br>
+                            — COM-порт (RS-232) или VGA* <br>
+                            — Аудиовыходы на наушники <br>и микрофоны</p> 
+                        </div>
+                        <div class="text ">
+                            <p>
+                            <span class="text__desc-title">Особенности: </span> <br>
+                            — Крепление VESA 100×100 <br>
+                            — FHD (1920×1080) <br>
+                            — Динамики 2×5W <br> 
+                            — WiFi/Bluetooth <br>
+                            — Регулировки PIVOT
+                        </p>
+                        </div>
+                    </div>
+                    <div class="desc__warranty">
+                        <p>Гарантия на готовое изделие: 36 месяцев</p>
+                    </div>
+                    <div class="desc__remark">
+                        <p>*Может отличаться в зависимости от используемой платформы</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-twelve" class="section slide-section">
+                <div class="slide-twelve__info">
+                    <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
+                    <div class="info__monoblok-name ">
+                        <p>СЕРИЯ <span class="name__letter">P</span></p>
+                    </div>
+                    <div class="info__monoblok-back ">
+                        <img src="images/slide-12-monoblok-back.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info__mb-desc ">
+                        <img src="images/slide-twelve-mb-desc.png" alt="" class="img-fluid mb-desc-22">
+                        <img src="images/slide-twelve-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
+                    </div>
+                </div>
+                <div class="slide-twelve__monoblok-front ">
+                    <img src="images/slide-12-monoblok-front.png" alt="" class="img-fluid">
+                </div>
+                <div class="slide-twelve__desc">   
+                    <div class="desc__color">
+                        <div class="color__white">
+                            <img src="images/W-WHITE.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="color__black">
+                            <img src="images/B_BLACK.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="desc__text">
+                        <div class="text ">
+                            <p><span class="text__desc-title">Разъемы*:</span> <br>
+                            — USB 3.0 - 4 шт. <br>
+                            — LAN 1Gbit <br>
+                            — HDMI 2.0 - 2 шт. <br>
+                            — Кардридер SD/MMC/MS* <br>
+                            — COM-порт (RS-232) или VGA* <br>
+                            — Аудиовыходы на наушники <br>и микрофоны</p> 
+                        </div>
+                        <div class="text ">
+                            <p>
+                            <span class="text__desc-title">Особенности: </span> <br>
+                            — Крепление VESA 100×100 <br>
+                            — FHD (1920×1080) <br>
+                            — Динамики 2×5W <br> 
+                            — WiFi/Bluetooth <br>
+                            — Выдвижная камера с <br>
+                            микрофоном
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc__warranty">
+                        <p>Гарантия на готовое изделие: 36 месяцев</p>
+                    </div>
+                    <div class="desc__remark">
+                        <p>*Может отличаться в зависимости от используемой платформы</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-thirteen" class="section slide-section">
+                <div class="slide-thirteen__info">
+                    <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
+                    <div class="info__monoblok-name ">
+                        <p>СЕРИЯ <span class="name__letter">M</span></p>
+                    </div>
+                    <div class="info__monoblok-back ">
+                        <img src="images/slide-13-monoblok-back.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info__mb-desc ">
+                        <img src="images/slide-thirteen-mb-desc.png" alt="" class="img-fluid mb-desc-22">
+                        <img src="images/slide-thirteen-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
+                        <img src="images/slide-thirteen-mb-desc3.png" alt="" class="img-fluid mb-desc-27">
+                    </div>
+                </div>
+                <div class="slide-thirteen__monoblok-front ">
+                    <img src="images/slide-13-monoblok-front.png" alt="" class="img-fluid">
+                </div>
+                <div class="slide-thirteen__desc">   
+                    <div class="desc__color">
+                        <div class="color__white">
+                            <img src="images/W-WHITE.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="color__black">
+                            <img src="images/B_BLACK.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="desc__text">
+                        <div class="text ">
+                            <p><span class="text__desc-title">Разъемы*:</span> <br>
+                            — USB 2.0/3.0 - 4-6 шт. <br>
+                            — LAN 1Gbit <br>
+                            — HDMI 2.0 - 2 шт. <br>
+                            — Кардридер SD/MMC/MS* +<br>
+                            Возможность установки DVD- <br>
+                            RW привода <br>
+                            — COM-порт (RS-232) или VGA* <br>
+                            — Аудиовыходы на наушники <br>и микрофоны</p> 
+                        </div>
+                        <div class="text ">
+                            <p>
+                            <span class="text__desc-title">Особенности: </span> <br>
+                            — Крепление VESA 100×100 <br>
+                            — FHD (1920×1080) <br>
+                            — Динамики 2×5W <br> 
+                            — WiFi/Bluetooth <br>
+                            — Выдвижная камера с <br>
+                            микрофоном <br>
+                            — Встроенный блок питания
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc__warranty">
+                        <p>Гарантия на готовое изделие: 36 месяцев</p>
+                    </div>
+                    <div class="desc__remark">
+                        <p>*Может отличаться в зависимости от используемой платформы</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-fourteen" class="section slide-section">
+                <div class="slide-fourteen__info">
+                    <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
+                    <div class="info__monoblok-name ">
+                        <p>СЕРИЯ <span class="name__letter">X</span></p>
+                    </div>
+                    <div class="info__monoblok-back ">
+                        <img src="images/slide-14-monoblok-back.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info__mb-desc ">
+                        <img src="images/slide-fourteen-mb-desc.png" alt="" class="img-fluid mb-desc-22">
+                    </div>
+                </div>
+                <div class="slide-fourteen__monoblok-front ">
+                    <img src="images/slide-14-monoblok-front.png" alt="" class="img-fluid">
+                </div>
+                <div class="slide-fourteen__desc">   
+                    <div class="desc__color">
+                        <div class="color__white">
+                            <img src="images/W-WHITE.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="color__black">
+                            <img src="images/B_BLACK.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="desc__text">
+                        <div class="text ">
+                            <p><span class="text__desc-title">Разъемы*:</span> <br>
+                            — USB 2.0/3.0 - 4-6 шт. <br>
+                            — LAN 1Gbit RJ-45 <br>
+                            — HDMI, DisplayPort, VGA (D-SUB) <br>
+                            — Кардридер SD/MMC/MS*<br>
+                            — COM-порт (RS-232) или VGA* <br>
+                            RW привода <br>
+                            — Аудиовыходы на наушники <br>и микрофоны</p> 
+                        </div>
+                        <div class="text ">
+                            <p>
+                            <span class="text__desc-title">Особенности: </span> <br>
+                            — Крепление VESA 100×100 <br>
+                            — 2K (2560×1440) / <br>
+                            FHD (1920×1080) <br>
+                            — Динамики 2×5W <br> 
+                            — WiFi/Bluetooth <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc__warranty">
+                        <p>Гарантия на готовое изделие: 36 месяцев</p>
+                    </div>
+                    <div class="desc__remark">
+                        <p>*Может отличаться в зависимости от используемой платформы</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-fifteen" class="section slide-section">
+                <div class="slide-fifteen__info">
+                    <p class="tagline">Моноблок Тесла. Рациональный комфорт</p>
+                    <div class="info__monoblok-name ">
+                        <p>СЕРИЯ <span class="name__letter">R</span></p>
+                    </div>
+                    <div class="info__monoblok-back ">
+                        <img src="images/slide-15-monoblok-back.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="info__mb-desc ">
+                        <img src="images/slide-fifteen-mb-desc.png" alt="" class="img-fluid mb-desc-27">
+                        <img src="images/slide-fifteen-mb-desc2.png" alt="" class="img-fluid mb-desc-24">
+                        <img src="images/slide-fifteen-mb-desc3.png" alt="" class="img-fluid mb-desc-22">
+                    </div>
+                </div>
+                <div class="slide-fifteen__monoblok-front ">
+                    <img src="images/slide-15-monoblok-front.png" alt="" class="img-fluid">
+                </div>
+                <div class="slide-fifteen__desc">   
+                    <div class="desc__color">
+                        <div class="color__black">
+                            <img src="images/B_BLACK.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="desc__text">
+                        <div class="text ">
+                            <p><span class="text__desc-title">Разъемы*:</span> <br>
+                            — USB 2.0/3.0 - 4-6 шт. <br>
+                            — LAN 1Gbit <br>
+                            — HDMI 2.0 - 2 шт. <br>
+                            — Кардридер SD/MMC/MS* +<br>
+                            Возможность установки DVD- <br>
+                            RW привода <br>
+                            — COM-порт (RS-232) или VGA* <br>
+                            — Аудиовыходы на наушники <br>и микрофоны</p> 
+                        </div>
+                        <div class="text ">
+                            <p>
+                            <span class="text__desc-title">Особенности: </span> <br>
+                            — Крепление VESA 100×100 <br>
+                            — FHD / 2K / 4K <br>
+                            — Динамики 2×5W <br> 
+                            — WiFi/Bluetooth <br>
+                            — Выдвижная камера с <br>
+                            микрофоном <br>
+                            — Встроенный блок питания
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc__warranty">
+                        <p>Гарантия на готовое изделие: 36 месяцев</p>
+                    </div>
+                    <div class="desc__remark">
+                        <p>*Может отличаться в зависимости от используемой платформы</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="slide-sixteen" class="section slide-section">
+                <div class="slide-sixteen__light-blue"></div>
+                <div class="img-block">
+                    <img src="images/tesla-sun-w.png" alt="tesla-sun" class="img-fluid">
+                </div>
+                <div class="slide-sixteen__text">
+                    <p class="">
+                        Посетите наш сайт, чтобы <br>
+                        ознакомиться с разнообразием <br>
+                        моделей моноблоков Тесла
+                    </p>
+                    <pre></pre>
+                    <p class="link ">
+                        <a href="https://monoblok.by" target="_blank">MONOBLOK.BY</a>
+                    </p>
+                </div>
+            </section>
+
+            <section id="slide-seventeen" class="section slide-section">
+                <div class="slide-seventeen-bg">
+                    <div class="slide-seventeen__img">
+                        <img src="images/slide-17-img1.png" alt="" class="img-fluid">
+                        <p>НАМ ДОВЕРЯЮТ</p>
+                    </div>
+                    <div class="slide-seventeen__img-m">
+                        <img src="images/slide-17-img1-m.png" alt="" class="img-fluid">
+                        <p>НАМ ДОВЕРЯЮТ</p>
+                    </div>
+                    <div class="slide-seventeen__logos">
+                        <!-- <img src="images/slide-17-img2.png" alt="" class="img-fluid"> -->
+                    </div>
+                </div>
+            </section>
+            
+            <section id="slide-eighteen" class="section slide-section">
+                <div class="slide-eighteen__logo">
+                    <a href="https://monoblok.by" target="_blank">
+                        <img src="images/logotcolor-2.png" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="text">
+                    <span class="text__bold">КОНТАКТЫ</span>
+                    <span class="text__normal">MONOBLOK.BY</span>
+                </div>
+                <div class="slide-eighteen__contact-info">
+                    <div class="info-block__1">
+                        <span>ОТДЕЛ ПРОДАЖ: </span>
+                        <p><br></p>
+                        <p>
+                        <a href="tel:+375 17 511 99 99">+375 17 511 99 99</a> <br>
+                        <a href="tel:+375 29 888 37 55">+375 29 888 37 55</a><br>
+                        <a href="tel:+375 29 308 37 55">+375 29 308 37 55</a><br>
+                        <span><br></span>
+                        г. Минск, ул. Аранская 8, 1-й <br>
+                        этаж БЦ"Caspian Plaza"<br>
+                        sales@monoblok.by
+                        </p>
+                    </div>
+                    <div class="info-block__2">
+                        <span>РЕМОНТ И ОБСЛУЖИВАНИЕ <br>
+                        МОНОБЛОКОВ И ПЭВМ ТЕСЛА
+                        </span>
+                        <p><br></p>
+                        <p>г. Минск, ул. Аранская, 8, 1-й этаж БЦ <br>
+                        "Caspian Plaza" <br>
+                        +375 29 118 37 55 <br>
+                        +375 17 511 99 99 (доб. 150) <br>
+                        Время работы: с 9:00 до 17:00, <br>
+                        выходные СБ, ВС <br>
+                        <p><br></p>
+                        <a href="mailto:ip@monoblok.by">ip@monoblok.by</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="scripts/fullpage.min.js"></script>
+    <script src="scripts/init-fp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
